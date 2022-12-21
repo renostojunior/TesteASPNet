@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\renos\\OneDrive\\Área de Trabalho\\TesteASP\\TesteASPNet\\TesteASPNet.Infra\\TesteASPNet.Infra.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\renos\\OneDrive\\Área de Trabalho\\TesteASP\\TesteASPNet\\TesteASPNet.Domain\\TesteASPNet.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\renos\\OneDrive\\Área de Trabalho\\TesteASP\\TesteASPNet\\TesteASPNet.Domain\\TesteASPNet.Domain.csproj",
+        "projectName": "TesteASPNet.Domain",
+        "projectPath": "C:\\Users\\renos\\OneDrive\\Área de Trabalho\\TesteASP\\TesteASPNet\\TesteASPNet.Domain\\TesteASPNet.Domain.csproj",
+        "packagesPath": "C:\\Users\\renos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\renos\\OneDrive\\Área de Trabalho\\TesteASP\\TesteASPNet\\TesteASPNet.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\renos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Canducci.Pagination": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\renos\\OneDrive\\Área de Trabalho\\TesteASP\\TesteASPNet\\TesteASPNet.Infra\\TesteASPNet.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\renos\\OneDrive\\Área de Trabalho\\TesteASP\\TesteASPNet\\TesteASPNet.Infra\\TesteASPNet.Infra.csproj",
+        "projectName": "TesteASPNet.Infra",
+        "projectPath": "C:\\Users\\renos\\OneDrive\\Área de Trabalho\\TesteASP\\TesteASPNet\\TesteASPNet.Infra\\TesteASPNet.Infra.csproj",
+        "packagesPath": "C:\\Users\\renos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\renos\\OneDrive\\Área de Trabalho\\TesteASP\\TesteASPNet\\TesteASPNet.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\renos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\renos\\OneDrive\\Área de Trabalho\\TesteASP\\TesteASPNet\\TesteASPNet.Domain\\TesteASPNet.Domain.csproj": {
+                "projectPath": "C:\\Users\\renos\\OneDrive\\Área de Trabalho\\TesteASP\\TesteASPNet\\TesteASPNet.Domain\\TesteASPNet.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Canducci.Pagination": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
